@@ -91,7 +91,7 @@ if choice == "Store Secret":
             
     
 elif choice == "Retrieve Secret":
-    st.header("Retrieve Your Secret")
+    st.header("Retrieve Your Secret") # Header
     
     label = st.text_input("Enter Label to Retrieve Secret")
     passkey = st.text_input("Enter passkey of the Label", type="password")
